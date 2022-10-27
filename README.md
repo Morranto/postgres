@@ -10,7 +10,7 @@ PostgreSQL(15)学习
 ./configure
 
 不带插件 不带文档的编译
-make
+make -j4
 
 安装 默认安装在 /usr/local/pgsql 下
 make install
